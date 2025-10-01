@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #3db3d3;
+}
+
+#section {
+    display: flex;
+}
+
+#section > div {
+    display: flex;
+    margin: 1rem;
+    padding: 1rem;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin: 1rem;
+    background-color: rgb(166, 207, 226);
+    border-radius: 1rem 1rem solid rgb(52, 129, 165);
+}
+
+h1 {
+    color: #eee;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+}
+
+nav a {
+    color: #eee;
+    text-decoration: none;
+    margin: .5rem;
+    padding: .5rem;
+}
