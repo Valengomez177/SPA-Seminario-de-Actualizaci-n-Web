@@ -29,7 +29,7 @@ export const Router = () => {
                 callback: (data) => { 
                     document.querySelector('#section').append(ContainerCard(data))
                     section.innerHTML = "" //Limpia el contenido antes de agregar
-                    section.append(Card(data))
+                    section.append(ContainerCard(data))
                 }
                     
             
